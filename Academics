@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academics - Sta. Lucia High School</title>
+    <link rel="stylesheet" href="stalucia.css">
+</head>
+<body>
+    <header>
+        <div class="header-info">
+            <h1>STA LUCIA HIGH SCHOOL</h1>
+            <p>School ID - 305420</p>
+            <p>30 Tramo St. Rosario Village, Sta Lucia, Pasig City</p>
+            <p>Tel. No. (2) 8-656 99 55</p>
+            <p>"LUCIANS, Magaling at Disiplinado"</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="developer.html">Developer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="academics">
+        <h2>Academics at Sta. Lucia High School</h2>
+        <p>Sta. Lucia High School offers a comprehensive and dynamic academic program that prepares students for success in higher education and beyond. Our curriculum is designed to meet the diverse needs and interests of our students, and it emphasizes critical thinking, creativity, and collaboration.</p>
+        
+        <h3>Core Subjects</h3>
+        <p>Our core academic subjects include:</p>
+        <ul>
+            <li>Mathematics</li>
+            <li>Science (Biology, Chemistry, Physics)</li>
+            <li>English Language Arts</li>
+            <li>Social Studies (History, Geography, Economics)</li>
+            <li>Filipino</li>
+        </ul>
+
+        <h3>Electives and Special Programs</h3>
+        <p>In addition to our core subjects, we offer a variety of electives and special programs to enhance the educational experience of our students:</p>
+        <ul>
+            <li>Computer Science and Information Technology</li>
+            <li>Arts and Music</li>
+            <li>Physical Education and Health</li>
+            <li>Foreign Languages</li>
+            <li>Advanced Placement (AP) Courses</li>
+        </ul>
+
+        <h3>Extracurricular Activities</h3>
+        <p>Sta. Lucia High School believes in the importance of extracurricular activities in developing well-rounded individuals. Our students have the opportunity to participate in a wide range of activities, including:</p>
+        <ul>
+            <li>Sports Teams (Basketball, Volleyball, Soccer, etc.)</li>
+            <li>Student Government and Leadership Programs</li>
+            <li>Clubs and Organizations (Science Club, Art Club, etc.)</li>
+            <li>Community Service Projects</li>
+        </ul>
+
+        <h3>Support Services</h3>
+        <p>We are committed to supporting the academic and personal growth of our students. Our support services include:</p>
+        <ul>
+            <li>Guidance and Counseling</li>
+            <li>Special Education Programs</li>
+            <li>Tutoring and Academic Support</li>
+            <li>College and Career Counseling</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sta. Lucia High School - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
