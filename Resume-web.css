@@ -1,0 +1,210 @@
+/* Reset for Consistent Layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    color: #2c3e50;
+    line-height: 1.6;
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+}
+
+/* Resume Container Styling */
+.resume-container {
+    width: 80%;
+    max-width: 900px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    font-size: 16px;
+    border-top: 5px solid #2c6e49;
+}
+
+/* Logo Section Styling */
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo {
+    background: linear-gradient(135deg, #90EE90, #98FB98); /* Light green gradient */
+    padding: 20px 40px;
+    border-radius: 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    transform: scale(1);
+    transition: transform 0.3s ease-in-out;
+    border: 5px solid #ffffff;
+}
+
+.logo:hover {
+    transform: scale(1.08);
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.text-color {
+    color: #2c3e50;
+}
+
+.fas.fa-desktop {
+    font-size: 30px;
+}
+
+.mjc {
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.mjc:hover {
+    color: #2c3e50;
+}
+
+.tagline {
+    font-size: 10px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.7);
+    letter-spacing: 1px;
+    margin-top: 5px;
+    text-transform: uppercase;
+}
+
+/* Personal Header (Name & Contact Info + Profile Picture) */
+.personal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    border-bottom: 2px solid #ecf0f1;
+    padding-bottom: 20px;
+}
+
+.name-contact {
+    flex-grow: 1;
+}
+
+.name-contact h1 {
+    font-size: 2.5em;
+    font-weight: 700;
+    color: #2c6e49;
+    margin-bottom: 10px;
+}
+
+.name-contact p {
+    font-size: 1.1em;
+    color: #7f8c8d;
+    margin: 5px 0;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #2c6e49;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+/* Section Styling */
+section h2 {
+    font-size: 1.8em;
+    color: #2c6e49;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #2c6e49;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+section ul li strong {
+    font-weight: 600;
+    color: #34495e;
+}
+
+/* Skills Section */
+.skills ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background-color: #ecf0f1;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-size: 1.1em;
+}
+
+/* Hover Effect for Sections */
+.skills ul li:hover,
+.personal-data ul li:hover {
+    background-color: #d5f0d1;
+}
+
+/* Icons for Sections */
+section h2 i {
+    color: #2c6e49;
+    margin-right: 10px;
+    font-size: 1.5em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    body {
+        padding: 20px;
+    }
+
+    .resume-container {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .personal-header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .name-contact h1 {
+        font-size: 2em;
+    }
+
+    .profile-image {
+        width: 120px;
+        height: 120px;
+    }
+}
