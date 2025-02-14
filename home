@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sta. Lucia High School</title>
+    <link rel="stylesheet" href="stalucia.css">
+</head>
+<body>
+    <header>
+        <div class="header-info">
+            <img src="slhslogo.png" alt="School Logo" class="header-logo">
+            <div class="header-text">
+                <h1>STA LUCIA HIGH SCHOOL</h1>
+                <p>School ID - 305420</p>
+                <p>30 Tramo St. Rosario Village, Sta Lucia, Pasig City</p>
+                <p>Tel. No. (2) 8-656 99 55</p>
+                <p>"LUCIANS, Magaling at Disiplinado"</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="developer.html">Developer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+    </section>
+
+    <section class="home">
+        <h2>Welcome to Sta. Lucia High School</h2>
+        <div class="principal-info">
+            <img src="pricipal.png" alt="Dr. Lorna Rodriguez">
+            <div class="text">
+                <p>Our Principal: Dr. Lorna Rodriguez</p>
+                <p>Sta. Lucia High School is dedicated to providing high-quality education to its students. Located at 30 Tramo St. Rosario Village, Sta Lucia, Pasig City, our school prides itself on fostering a nurturing and disciplined environment where students can thrive academically and personally. With a commitment to excellence, we strive to develop well-rounded individuals who are equipped to face the challenges of the future.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sta. Lucia High School - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
