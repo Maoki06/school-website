@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer - Sta. Lucia High School</title>
+    <link rel="stylesheet" href="dev.css">
+</head>
+<body>
+    <header>
+        <div class="header-info">
+            <h1>STA LUCIA HIGH SCHOOL</h1>
+            <p>School ID - 305420</p>
+            <p>30 Tramo St. Rosario Village, Sta Lucia, Pasig City</p>
+            <p>Tel. No. (2) 8-656 99 55</p>
+            <p>"LUCIANS, Magaling at Disiplinado"</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="developer.html">Developer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="developer">
+        <h2>Meet the Developer</h2>
+        <img src="hahaha.png" alt="Developer Image" class="developer-image">
+        <p>Hello, I'm Myko L. Espina, the developer of this website. I am passionate about creating engaging and user-friendly websites that provide a great experience for visitors. If you have any questions or feedback, please feel free to contact me!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sta. Lucia High School - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
