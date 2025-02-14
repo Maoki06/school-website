@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Sta. Lucia High School</title>
+    <link rel="stylesheet" href="stalucia.css">
+</head>
+<body>
+    <header>
+        <div class="header-info">
+            <h1>STA LUCIA HIGH SCHOOL</h1>
+            <p>School ID - 305420</p>
+            <p>30 Tramo St. Rosario Village, Sta Lucia, Pasig City</p>
+            <p>Tel. No. (2) 8-656 99 55</p>
+            <p>"LUCIANS, Magaling at Disiplinado"</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="academics.html">Academics</a></li>
+                <li><a href="news.html">News</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="developer.html">Developer</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="about">
+        <h2>About Sta. Lucia High School</h2>
+        <p>Founded in 1994, Sta. Lucia High School has been a beacon of academic excellence and character development in Pasig City. Our mission is to provide students with a well-rounded education that prepares them for future challenges. With a focus on both academic and extracurricular activities, we strive to develop students who are not only knowledgeable but also socially responsible and compassionate individuals.</p>
+        <p>Our dedicated faculty and staff are committed to creating a nurturing and inclusive environment where every student can thrive. We offer a range of programs and opportunities that cater to the diverse interests and talents of our students, including sports, arts, and community service initiatives.</p>
+        <p>At Sta. Lucia High School, we believe in the power of education to transform lives. We are proud of our tradition of excellence and look forward to continuing to serve our community with the highest standards of education.</p>
+        <p>Join us at Sta. Lucia High School, where we nurture the leaders of tomorrow!</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Sta. Lucia High School - All Rights Reserved</p>
+    </footer>
+</body>
+</html>
